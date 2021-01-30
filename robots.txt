@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: /uploads/
+Sitemap: http://edeks.ru/sitemap.xml

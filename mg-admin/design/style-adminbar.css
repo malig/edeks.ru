@@ -1,0 +1,72 @@
+body{
+margin-top:60px;
+}
+#admin-header{
+	position: absolute;
+	top:0;
+	left:0;
+	height:50px;
+	float:left;
+	width:100%;
+	
+}
+#admin-header{
+	height:50px;
+	float:left;
+	width:100%;
+	background: #35353A url('images/header-bg.png') repeat;
+	border-bottom: 4px solid #00CBDD;
+}
+
+#admin-header a{
+	font: 13px arial, sans-serif; 
+	color: #fff;
+	text-decoration: none;
+}
+
+#admin-header a:hover{
+	color: #00CAE6;
+}
+
+#admin-header .menu{
+	float:left !important;
+	height: 50px;
+}
+
+#admin-header .menu ul{
+	margin:0;
+	padding:0;
+	list-style:none;
+	background: #35353A url(images/dark-bg.png) repeat-x !important;
+	height: 50px;
+}
+
+#admin-header .menu ul li{
+	float:left;
+	padding: 0px 11px 0 11px;
+	height: 50px;
+	background: url(images/nav-ruler.png) repeat-y right top;
+	
+}
+#admin-header .menu ul li a {
+	display: block !important;
+}
+#admin-header .menu ul li a span {
+	display: block;
+	padding: 16px 3px 18px 40px;
+}
+
+#admin-header .look {
+	background:url(images/icons/home.png) 0 50% no-repeat;
+}
+
+#admin-header .user{
+	float:right;
+	margin-top: 5px;
+	margin-right:15px;
+	background-image: url(images/inset.png);
+	padding: 12px;
+}
+#admin-header .user a {
+	margin:0 5px;
+}
