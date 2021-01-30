@@ -1,0 +1,2 @@
+# edeks.ru
+failed startup
